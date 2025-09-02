@@ -5,7 +5,7 @@
 ### Introduction to CSS:
 
 CSS (**Cascading Style Sheets**) is used to **style and design**
-websites.\
+websites.
 Think of **HTML** as the skeleton, and **CSS** as the clothes and makeup
 that make it attractive.
 
@@ -14,8 +14,8 @@ that make it attractive.
 ## When to Use CSS?
 
 -   **Inline CSS** → Quick fixes or testing (not recommended for large
-    projects).\
--   **Internal CSS** → When styles are only for a **single page**.\
+    projects).
+-   **Internal CSS** → When styles are only for a **single page**.
 -   **External CSS** → Best practice; keeps styles separate, reusable,
     and scalable.
 
@@ -24,14 +24,14 @@ that make it attractive.
 ## Types of CSS:
 
 1.  **Inline CSS**
-    -   Used when you want to style a **single element** only.\
+    -   Used when you want to style a **single element** only.
     -   Example:
 
     ``` html
     <h1 style="color:blue;">This is a blue heading</h1>
     ```
 2.  **Internal CSS**
-    -   Useful for **small projects** or one-page websites.\
+    -   Useful for **small projects** or one-page websites.
     -   Example:
 
     ``` html
@@ -45,7 +45,7 @@ that make it attractive.
     ```
 3.  **External CSS**
     -   Best for **real-world projects**. Styles apply across multiple
-        pages.\
+        pages.
     -   Example:
 
     ``` html
@@ -66,8 +66,8 @@ that make it attractive.
 
 ## When to Use What?
 
--   Use **inline CSS** only for **quick testing/debugging**.\
--   Use **internal CSS** for **single-page projects**.\
+-   Use **inline CSS** only for **quick testing/debugging**.
+-   Use **internal CSS** for **single-page projects**.
 -   Use **external CSS** for **multi-page websites** and **team
     projects**.
 
@@ -170,7 +170,7 @@ nav ul li a:hover { color: red; }
 
 ### 2. Colors
 
--   **Named colors, Hex, RGB, HSL** → Use based on project need.\
+-   **Named colors, Hex, RGB, HSL** → Use based on project need.
 -   **RGBA** is best when you want **transparency**.
 
 ------------------------------------------------------------------------
@@ -179,16 +179,16 @@ nav ul li a:hover { color: red; }
 
 -   **Box model** → Use when adjusting spacing (margin, padding,
     border).\
--   **Flexbox** → Use for **one-dimensional layouts** (row or column).\
+-   **Flexbox** → Use for **one-dimensional layouts** (row or column).
 -   **Grid** → Use for **two-dimensional layouts** (rows and columns).
 
 ------------------------------------------------------------------------
 
 ### 4. Positioning
 
--   **Relative** → Nudge element slightly.\
--   **Absolute** → Place relative to parent.\
--   **Fixed** → Stick to viewport (good for navbars).\
+-   **Relative** → Nudge element slightly.
+-   **Absolute** → Place relative to parent.
+-   **Fixed** → Stick to viewport (good for navbars).
 -   **Sticky** → Sticks until scroll pushes it.
 
 ------------------------------------------------------------------------
@@ -207,7 +207,7 @@ nav ul li a:hover { color: red; }
 
 ### 6. Transitions & Animations
 
--   Use **transitions** for smooth hover effects.\
+-   Use **transitions** for smooth hover effects.
 -   Use **animations** when you need continuous movement.
 
 ------------------------------------------------------------------------
@@ -234,13 +234,14 @@ nav ul li a:hover { color: red; }
 
 ## Best Practices (When to Use Them)
 
--   Always prefer **external CSS** in real projects.\
--   Use **classes** for styling, not IDs.\
--   Use **mobile-first approach** with media queries.\
+-   Always prefer **external CSS** in real projects.
+-   Use **classes** for styling, not IDs.
+-   Use **mobile-first approach** with media queries.
 -   Organize CSS in **modules** for big projects.
 
 ------------------------------------------------------------------------
 
 🔥 CSS is the language of design. Start small, but always think about
 **reusability, maintainability, and scalability**.
+
 ------------------------------------------------------------------------
